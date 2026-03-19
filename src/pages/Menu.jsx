@@ -7,7 +7,7 @@ const menuData = [
   {
     id: 'beer',
     title: 'Beer',
-    image: '/assets/Beer.png',
+    image: `${import.meta.env.BASE_URL}assets/Beer.png`,
     items: [
       { subtitle: 'Draft & Domestic' },
       { name: 'Kozel Premium Lager / Dark (500 ml)', price: '13 Lei' },
@@ -31,7 +31,7 @@ const menuData = [
   {
     id: 'wines',
     title: 'Wines & Organic Selection',
-    image: '/assets/Wines & Organic Selection.png',
+    image: `${import.meta.env.BASE_URL}assets/Wines & Organic Selection.png`,
     items: [
       { subtitle: 'By the Glass (100 ml)' },
       { name: 'Caloian (Sauvignon/Fetească/Rosé)', price: '8 Lei' },
@@ -46,7 +46,7 @@ const menuData = [
   {
     id: 'shots',
     title: 'Shots & Spirits (25 ml)',
-    image: '/assets/Shots & Spirits (25 ml).png',
+    image: `${import.meta.env.BASE_URL}assets/Shots & Spirits (25 ml).png`,
     items: [
       { name: 'Pălincă / Aperol / Jagermeister', price: '8 Lei' },
       { name: 'Unicum / Jack Daniel\'s / Absolut', price: '9 Lei' },
@@ -61,7 +61,7 @@ const menuData = [
   {
     id: 'cocktails',
     title: 'Cocktails & Long Drinks',
-    image: '/assets/Cocktails & Long Drinks.png',
+    image: `${import.meta.env.BASE_URL}assets/Cocktails & Long Drinks.png`,
     items: [
       { subtitle: 'Long Drinks' },
       { name: 'Cuba Libre / Gin Tonic', price: '20 Lei' },
@@ -76,7 +76,7 @@ const menuData = [
   {
     id: 'softdrinks',
     title: 'Soft Drinks & Snacks',
-    image: '/assets/Soft Drinks & Snacks.png',
+    image: `${import.meta.env.BASE_URL}assets/Soft Drinks & Snacks.png`,
     items: [
       { name: 'Pepsi / 7UP / Mirinda (330ml)', price: '9 Lei' },
       { name: 'Aqua Carpatica (500ml)', price: '8 Lei' },
@@ -90,7 +90,7 @@ const menuData = [
   {
     id: 'coffee',
     title: 'Coffee & Tea',
-    image: '/assets/Coffee & Tea.png',
+    image: `${import.meta.env.BASE_URL}assets/Coffee & Tea.png`,
     items: [
       { name: 'Espresso / Ristretto', price: '8 Lei' },
       { name: 'Cappuccino / Latte', price: '9-10 Lei' },

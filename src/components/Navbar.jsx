@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled glass' : ''}`}>
       <div className="container nav-container">
         <Link to="/" className="nav-logo">
-          <img src="/assets/logo.gif" alt="Moszkva Café Logo" />
+          <img src={`${import.meta.env.BASE_URL}assets/logo.gif`} alt="Moszkva Café Logo" />
         </Link>
 
         {/* Desktop Nav */}

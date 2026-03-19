@@ -8,14 +8,14 @@ const eventsData = [
     id: 1,
     title: 'Weekend Party & Live Music',
     date: 'Every Friday & Saturday',
-    image: '/assets/event1.jpg',
+    image: `${import.meta.env.BASE_URL}assets/event1.jpg`,
     description: 'Join us for an unforgettable weekend at Moszkva Café. Experience the best live music, vibrant atmosphere, and premium drinks. Our multicultural hub brings together the finest entertainment in Oradea City.'
   },
   {
     id: 2,
     title: 'Special Cultural Night',
     date: 'TBA',
-    image: '/assets/event2.jpg',
+    image: `${import.meta.env.BASE_URL}assets/event2.jpg`,
     description: 'Immerse yourself in our special cultural nights where we celebrate independent arts, music, and community spirit. A perfect evening to relax and socialize.'
   }
 ];

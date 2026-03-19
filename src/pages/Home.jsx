@@ -5,7 +5,7 @@ import './Home.css';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const sliderImages = ['/assets/photo1home.jpg', '/assets/photo2home.jpg', '/assets/photo3home.jpg'];
+  const sliderImages = [`${import.meta.env.BASE_URL}assets/photo1home.jpg`, `${import.meta.env.BASE_URL}assets/photo2home.jpg`, `${import.meta.env.BASE_URL}assets/photo3home.jpg`];
 
   const [tickerWidth, setTickerWidth] = useState(0);
   const tickerRef = useRef();
@@ -49,7 +49,7 @@ const Home = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
-          <img src="/assets/heroimage.png" alt="Moszkva Café Hero" className="hero-image" />
+          <img src={`${import.meta.env.BASE_URL}assets/heroimage.png`} alt="Moszkva Café Hero" className="hero-image" />
         </motion.div>
         
         <div className="container hero-content">
@@ -78,7 +78,7 @@ const Home = () => {
           >
             {[1, 2, 3, 4, 5, 6].map((num, idx) => (
               <motion.div key={idx} className="ticker-item snap-item" whileHover={{ scale: 1.02 }}>
-                <img src={`/assets/${num}.webp`} alt={`Promotion ${num}`} loading="lazy" draggable="false" />
+                <img src={`${import.meta.env.BASE_URL}assets/${num}.webp`} alt={`Promotion ${num}`} loading="lazy" draggable="false" />
               </motion.div>
             ))}
           </motion.div>

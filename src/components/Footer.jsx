@@ -8,13 +8,13 @@ const Footer = () => {
         
         {/* Column 1: Brand */}
         <div className="footer-col footer-brand">
-          <img src="/assets/logo.gif" alt="Moszkva Café" className="footer-logo" />
+          <img src={`${import.meta.env.BASE_URL}assets/logo.gif`} alt="Moszkva Café" className="footer-logo" />
           <div className="social-links">
              <a href="https://www.facebook.com/MoszkvaCafe" target="_blank" rel="noreferrer">
-                <img src="/assets/facebook.png" alt="Facebook" />
+                <img src={`${import.meta.env.BASE_URL}assets/facebook.png`} alt="Facebook" />
              </a>
              <a href="https://www.instagram.com/moszkvacafe" target="_blank" rel="noreferrer">
-                <img src="/assets/instagram.png" alt="Instagram" />
+                <img src={`${import.meta.env.BASE_URL}assets/instagram.png`} alt="Instagram" />
              </a>
           </div>
         </div>

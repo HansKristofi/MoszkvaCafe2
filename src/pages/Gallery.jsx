@@ -8,18 +8,18 @@ const albums = [
     id: 1,
     title: 'Album 1',
     images: [
-      '/assets/img1.jpg',
-      '/assets/img2.jpg',
-      '/assets/img3.jpg'
+      `${import.meta.env.BASE_URL}assets/img1.jpg`,
+      `${import.meta.env.BASE_URL}assets/img2.jpg`,
+      `${import.meta.env.BASE_URL}assets/img3.jpg`
     ]
   },
   {
     id: 2,
     title: 'Album 2',
     images: [
-      '/assets/img4.jpg',
-      '/assets/img5.jpg',
-      '/assets/img6.jpg'
+      `${import.meta.env.BASE_URL}assets/img4.jpg`,
+      `${import.meta.env.BASE_URL}assets/img5.jpg`,
+      `${import.meta.env.BASE_URL}assets/img6.jpg`
     ]
   }
 ];
