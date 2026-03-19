@@ -140,6 +140,15 @@ const Home = () => {
               title="Moszkva Cafe Location"
             ></iframe>
           </div>
+          
+          {/* Opening Hours under Map */}
+          <div className="opening-hours-container text-center glass" style={{ marginTop: '2rem', padding: '1.5rem', borderRadius: '15px' }}>
+            <h3 style={{ marginBottom: '1rem', fontSize: '1.5rem', color: 'var(--text-light, #f8f9fa)' }}>Opening Hours</h3>
+            <div className="hours-details" style={{ fontSize: '1.2rem', color: 'var(--text-muted, #ced4da)' }}>
+              <p style={{ margin: '0.5rem 0' }}><strong style={{ color: 'var(--accent, #d9a545)' }}>Mon - Thu:</strong> 3:00 PM - 2:00 AM</p>
+              <p style={{ margin: '0.5rem 0' }}><strong style={{ color: 'var(--accent, #d9a545)' }}>Fri - Sun:</strong> 3:00 PM - 2:00 AM</p>
+            </div>
+          </div>
         </div>
       </section>
     </motion.div>

@@ -40,13 +40,6 @@ const Footer = () => {
             <p><a href="tel:+40753471899">+40753471899</a></p>
             <p><a href="mailto:arpad.schmieder@gmail.com">arpad.schmieder@gmail.com</a></p>
           </div>
-          <div className="footer-hours">
-            <h4>Opening Hours</h4>
-            <div className="hours-block">
-              <p><span>Mon - Thu:</span> 3:00 PM - 2:00 AM</p>
-              <p><span>Fri - Sun:</span> 3:00 PM - 2:00 AM</p>
-            </div>
-          </div>
         </div>
 
       </div>
